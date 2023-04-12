@@ -32,6 +32,14 @@ $(document).ready(function() {
 		$('#mask').hide();
 		$('.window').hide();
 	});		
+	//if website button is clicked
+	$('.window .hide').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
 	
 	//if mask is clicked
 	$('#mask').click(function () {
